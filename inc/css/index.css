@@ -1,0 +1,4 @@
+body { width: 1100px; margin: auto; }
+.main_link {display: table; width: 100%; table-layout: fixed; margin-top: 200px;}
+.main_link > div{display: table-cell;}
+.main_link > div > img {border: 1px solid #cecece; width: 100%; height: 100%; cursor: pointer;}
