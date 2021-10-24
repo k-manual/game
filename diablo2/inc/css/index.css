@@ -1,0 +1,44 @@
+body { width: 1100px; margin: auto; }
+#header { font-size: 15px; margin: 20px 0;}
+#footer { border-top: 1px solid #dfdfdf; margin-top: 50px; height: 100px; text-align: center;}
+#footer div { margin-top: 20px; }
+#contents { min-height: 1000px;}
+
+.tac {text-align: center;}
+.dpn { display: none;}
+.pd-tb10 { padding-top: 10px; padding-bottom: 10px; }
+
+/* main */
+#main_banner {
+    background-image: url(../../data/img/main/banner.gif);
+    background-repeat: no-repeat; width: 100%; height: 260px;
+    background-color: black;
+    background-position: center;
+}
+#main_banner span { font-weight: bold; color: white; display: inline-block; padding: 30px;}
+
+/* tab */
+.tab { width: 100%; }
+.tab > ul { display: table; width: 100%; margin: auto; padding: 0; text-align: center; }
+.tab > ul > li { list-style: none; display: table-cell; border: 1px solid #dfdfdf; border-bottom: 2px solid #333333; border-right: 0; padding: 12px 0; font-size: 15px; }
+.tab > ul > li:last-child { border-right: 1px solid #dfdfdf; }
+.tab > ul > li.on { color: #a131e4; font-weight: bold; border: 2px solid #333333; border-bottom: 0;}
+.tab > ul > li:hover { cursor: pointer; color: #a131e4; font-weight: bold;  }
+
+
+/* ability */
+#div-ability { padding-top: 20px; }
+#div-ability table { width: 1100px; border: 1px solid #dfdfdf; margin: auto; }
+#div-ability table thead tr { background-color: #333333; }
+#div-ability table thead tr th { padding: 3px; }
+#div-ability table thead tr th:nth-child(1) { color: #ffffff; }
+#div-ability table thead tr th:nth-child(2) { color: #4cccff; }
+#div-ability table thead tr th:nth-child(3) { color: #a754ff; }
+#div-ability table thead tr th:nth-child(4) { color: #f5f957; }
+#div-ability table thead tr th:nth-child(5) { color: #6dff3f; }
+#div-ability table tbody tr { text-align: center; }
+#div-ability table tbody tr td { padding: 3px; }
+#div-ability table tbody tr td:nth-child(1) { text-align: left; padding: 5px;}
+#div-ability table tbody tr td { border-bottom: 1px solid #dedede;}
+#div-ability table tbody tr:last-child td { border-bottom: 0; }
+#div-ability table tbody tr td span { display: inline-block; background-image: url(../../data/img/icon-etc.png); background-repeat: no-repeat; width: 9px; height: 9px; margin-left: 5px; }
